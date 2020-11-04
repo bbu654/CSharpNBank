@@ -186,39 +186,6 @@ namespace Training
             {
                 CodeToRunA codeToRunA = new CodeToRunA();
             }
-            #region objectInitializerText
-            //  "To create a property, use the same syntax as for fields, but add a get; to generate a getter 
-            //  and a set; to generate a setter. Then use the property the same as you do a field." 
-            //      class Student
-            //      {
-            //          public int Age { get; set; }
-            //          public string Name { get; private set; }
-            //  
-            //          public Student() // Empty constructor
-            //          {}
-
-            //          var student = new Student
-            //          {
-            //              Age = 20, // Work with Age just like a public field
-            //              Name = "John" // ERROR: setter for the Name is private
-            //          };
-
-            //  Using classic approach
-            //          var student = new Student();
-            //          student.Age = 20; // Work with Age just like a public field
-            //          student.Name = "John" // ERROR: setter for the Name is private
-
-            //  Using a constructor that sets age
-            //          var student = new Student(20, "John");
-            //      }
-            //  }
-            //  "Is this clear?" Noname asked.  "What type can the property have?" I asked.
-            //  "There are no limitations to a property's type. Think of it as a field 
-            //  with 2 additional methods - get and set."  "Got it," I said confidently, 
-            //  hoping that the lesson in class would clear it up a bit more. 
-            //  "Note that getters and setters are public by default unless you use a private keyword. 
-            //  Here are some exercises for you." 
-            #endregion
         }
 
         private static void RunBank()
