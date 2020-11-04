@@ -64,7 +64,7 @@ namespace Training
         }
         public bool IsBalanceMinusAmountLessThanZero(decimal amount)
         {
-            if (Balance - amount < 0)
+            if (Balance - amount <= 0)
             {                //throw new InvalidOperationException("Not sufficient funds for this Withdrawal!");
                 ConsoleColor ForeGroundDefault = Console.ForegroundColor; Console.ForegroundColor = ConsoleColor.Red;
                 ConsoleColor BackGroundDefault = Console.BackgroundColor; Console.BackgroundColor = ConsoleColor.Black;
