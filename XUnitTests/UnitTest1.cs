@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using Bank;
+using Training;
 using System.Security;
 
 namespace UnitTests
